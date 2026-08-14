@@ -38,6 +38,22 @@
         font-size: inherit;
         color: #555;
       }
+      a {
+        color: inherit;
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        text-decoration-color: #999;
+        text-underline-offset: 4px;
+      }
+      a:hover {
+        color: #000;
+        text-decoration-color: #000;
+      }
+      .github-line {
+        display: block;
+        font-size: 1.6rem;
+        margin-top: 1rem;
+      }
     </style>
   </head>
   <body>
@@ -45,6 +61,10 @@
       <p>
         <code>// TODO: build a proper landing page</code><br />
         Too busy building cool stuff.
+        <span class="github-line"
+          >drop us a line —
+          <a href="mailto:rebays@googlegroups.com">rebays@googlegroups.com</a></span
+        >
       </p>
     </main>
   </body>
